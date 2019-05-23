@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: server
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://123.207.253.82:31306/micro?characterEncoding=utf-8&useSSL=false
+    username: root
+    password: yetingfm@2018
+  jpa:
+    show-sql: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+env:
+  dev
